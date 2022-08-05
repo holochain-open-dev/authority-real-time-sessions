@@ -1,0 +1,19 @@
+node_modules/
+*.log
+*.gz
+target/
+ui/public/build/
+ui/node
+*.dna
+.hc*
+*.happ
+.cargo
+/tmp/*
+
+# Negative ignores last:
+!.gitkeep
+.idea
+.rollup.cache
+*.iml
+*.tsbuildinfo
+.running
